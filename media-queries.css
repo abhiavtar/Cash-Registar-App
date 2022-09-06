@@ -1,0 +1,38 @@
+@media (max-width: 938px) {
+    .cash__card{
+        margin: 2rem 0rem 0rem 6rem;
+        width: 80%;
+    }
+    
+    #check-button{
+        margin-left: 7rem;
+    }
+        
+    }
+
+@media (max-width: 769px) {
+.cash__card{
+    margin: 2rem 0rem 0rem 6rem;
+    width: 80%;
+}
+
+#check-button{
+    margin-left: 6rem;
+}
+    
+}
+
+
+
+
+@media (max-width: 480px) {
+
+    .cash__card{
+        margin: 2rem 0rem 0rem 1rem;
+        width: 100%;
+    }
+    
+    #check-button{
+        margin-left: 4rem;
+    }
+}

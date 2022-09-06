@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media-quries.css" />
   </head>
   <body>
     <div class="container">
       <div class="cash__card">
-        <h1>CASH REGISTER 💸</h1>
-        <p>
+        <h1 class="card__heading">CASH REGISTER 💰</h1>
+        <p class="card__paragraph">
           Enter the bill amount and cash given by the customer to know minimum
           number of notes to return.
         </p>
@@ -23,10 +24,11 @@
 
         <button id="check-button">Check →</button><br />
 
+        <p id="error-message"></p>
+
         <table class="table-change">
           <tr>
             <th>Number of notes:</th>
-            <td class="no-of-notes"></td>
             <td class="no-of-notes"></td>
             <td class="no-of-notes"></td>
             <td class="no-of-notes"></td>
@@ -40,7 +42,6 @@
             <td>2000</td>
             <td>500</td>
             <td>100</td>
-            <td>50</td>
             <td>20</td>
             <td>10</td>
             <td>5</td>
